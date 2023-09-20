@@ -3,10 +3,7 @@ const score = document.getElementById('scores');
 const winnerArea = document.getElementById('winnerArea');
 const reset = document.getElementById('reset-match');
 
-const scoreBoard = {
-    Player: 0,
-    Computer: 0
-};
+
 //* function to play the game when user presses an option *//
 function playGame(e) {
 
@@ -58,16 +55,20 @@ function whoWins(p, c) {
 
 }
 //* function to update the scores*//
-function (scoreBoard) {
+function scoreBoard() {
     if (winner === playerChoice) {
 
         scoreBoard.Player++;
+        document.getElementById("score").innerHTML = text1;
     }
     else if (winner === computer) {
         scoreBoard.computer++;
+        document.getElementById("score").innerHTML = text1;
     }
-    console.log(scoreBoard);
+
 }
+
+
 //* starts the game when an the user selects and option*//
 options.forEach(options => options.addEventListener('click', playGame));
 
