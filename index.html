@@ -1,51 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="https://kit.fontawesome.com/d6b1861be4.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/d6b1861be4.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Hand Wars</title>
-</head>
+  </head>
 
-
-
-
-
-<body>
+  <body>
     <div class="game-area">
-        <div class="controls-area">
-            <h1>Choose Your Weapon!!</h1>
-            <button id="rock" class="options btn"> <i class="fa-solid fa-hand-back-fist">Rock</i>
-
-            </button>
-            <button id="paper" class="options btn"> <i class="fa-solid fa-hand">Paper</i>
-
-            </button>
-            <button id="scissors" class="options btn"> <i class="fa-solid fa-hand-scissors">Scissors</i>
-
-            </button>
-            <button id="lizard" class="options btn"> <i class="fa-solid fa-hand-lizard">Lizard</i>
-
-            </button>
-            <button id="spock" class="options btn"> <i class="fa-solid fa-hand-spock">Spock</i>
-
-            </button>
+      <div class="controls-area">
+        <h1>Choose Your Weapon!!</h1>
+        <button id="rock" class="options btn">
+          <i class="fa-solid fa-hand-back-fist">Rock</i>
+        </button>
+        <button id="paper" class="options btn">
+          <i class="fa-solid fa-hand">Paper</i>
+        </button>
+        <button id="scissors" class="options btn">
+          <i class="fa-solid fa-hand-scissors">Scissors</i>
+        </button>
+        <button id="lizard" class="options btn">
+          <i class="fa-solid fa-hand-lizard">Lizard</i>
+        </button>
+        <button id="spock" class="options btn">
+          <i class="fa-solid fa-hand-spock">Spock</i>
+        </button>
+      </div>
+      <div id="winnerArea">
+        The Result is:
+        <div class="scoresArea">
+          <div id="yScore">Your Score:</div>
+          <div id="cScore"></div>
+          Computer Score:
         </div>
-            <div id="winnerArea">The Result is:</div>
-            <button id='reset-match' data-type="reset-game" class="btn btn--reset"> <i
-                    class="fa-solid fa-power-off">Reset Game</i>
-
-            </button>
-            <div class="scoresArea"></div>
-           
-        </div>
+      </div>
     </div>
-    <div> </div>
+    <div></div>
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>

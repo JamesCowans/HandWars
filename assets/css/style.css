@@ -1,0 +1,69 @@
+css body {
+    background-color: lightblue;
+    border: 0;
+
+}
+
+.game-area {
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 12px;
+    border-style: ridge;
+    width: 500px;
+    max-height: 80%;
+    box-shadow: 0 0 5px 4px;
+
+}
+
+.btn {
+    background-color: white;
+    border-color: black;
+    font-size: 20px;
+    border-radius: 12px;
+
+}
+
+.btn btn--reset {
+    border-radius: 12px;
+}
+
+.btn:hover {
+    border-color: white;
+    background-color: lightsteelblue;
+
+}
+
+.btn--reset {
+    font-size: small;
+}
+
+#result {
+    padding: 20%;
+}
+
+
+
+
+#winnerArea {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+
+
+}
+
+.scoresArea {
+    height: 50px;
+    width: 200px;
+}
+
+#yourScore {
+    height: 50px;
+    width: 50px;
+}
+
+#computerScore {
+    height: 50px;
+    width: 50px;
+}
